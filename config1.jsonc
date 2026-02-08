@@ -1,0 +1,46 @@
+{
+  "display": {
+    "separator": " : "
+  },
+
+  "modules": [
+    {
+      "type": "custom",
+      "format": "=== SYSTEM ==="
+    },
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+
+    {
+      "type": "custom",
+      "format": "=== ENVIRONMENT ==="
+    },
+    "shell",
+    "display",
+    "de",
+    "wm",
+
+    {
+      "type": "custom",
+      "format": "=== HARDWARE ==="
+    },
+    "cpu",
+    "gpu",
+    "memory",
+
+    {
+      "type": "custom",
+      "format": "=== STORAGE ==="
+    },
+    "disk",
+
+    {
+      "type": "custom",
+      "format": "=== POWER ==="
+    },
+    "battery"
+  ]
+}
+
